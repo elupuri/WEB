@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.orangehrm.tests.NewUserRegTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="userRegTest"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.NewUserRegTest -->
+      <class name="com.orangehrm.tests.AdminLoginTest">
+        <methods>
+          <include name="adminLoginTest"/>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.AdminLoginTest -->
+      <class name="com.orangehrm.tests.NewEmployeeRegTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="empregTest"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.NewEmployeeRegTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
